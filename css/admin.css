@@ -1,0 +1,13 @@
+/* Styling for post list image column */
+
+.fixed .column-img {
+    width: 40px;
+}
+.fixed .column-img img {
+    vertical-align: middle;
+}
+
+/* Fix post editor style-dropdown-box item background */
+.mce-menu .mce-menu-item-preview.mce-active {
+    background: #f6f6f6!important;
+}

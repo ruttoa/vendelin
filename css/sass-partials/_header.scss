@@ -1,0 +1,61 @@
+/*------------------------------------*\
+    HEADER
+\*------------------------------------*/
+
+.navbar-brand {
+    margin-right: auto;
+    width: auto;
+    max-width: 300px;
+    white-space: normal;
+    float: left;
+}
+.logo-img {
+    max-height: 50px;
+}
+.site-title {
+    font-size: 1.5rem;
+    margin: .5rem auto;
+}
+.site-description {
+	font-size: 1rem;
+	line-height: 1.2;
+	margin-bottom: 0;
+    font-weight: 400;
+}
+.site-header .btn {
+    float: right;
+    &:after {
+        content: "";
+        height: 18px;
+        width: 11px;
+        display: inline-block;
+        background: transparent url('../img/cell-phone.svg') center center no-repeat;
+        background-size: contain;
+        vertical-align: middle;
+        margin-left: 1rem;
+        margin-top: -6px;
+    }
+}
+
+/* Large devices (desktops, less than 1199px)*/
+@media (max-width: 1199px) {}
+
+/* Medium devices (tablets, less than 991px)*/
+@media (max-width: 991px) {}
+
+/* Small devices (landscape phones, less than 767px)*/
+@media (max-width: 767px) {
+    .logo-img {
+        max-height: 40px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 575px)*/
+@media (max-width: 575px) {
+    .logo-img {
+        max-height: 35px;
+    }
+    .site-header .btn {
+        display: none;
+    }
+}
