@@ -60,3 +60,20 @@ Used to style the TinyMCE editor.
 	color: #fff;
     background: transparent;
 }
+
+// Carousel on the front page
+.swiper-container {
+    .wp-block-columns {
+        overflow-y: scroll;
+    }
+    .wp-block-column {
+        min-width: 200px;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
+    p {
+        font-size: .9rem;
+    }
+}

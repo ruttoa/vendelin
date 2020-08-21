@@ -112,10 +112,10 @@ img.emoji {
     }
 }
 
-.has-white-background-color {background-color: #fff;}
-.has-green-background-color {background-color: $green;}
-.has-blue-background-color {background-color: $blue; color: #fff;}
-.has-pink-background-color {background-color: $pink;}
+.has-white-background-color {background-color: #fff!important;}
+.has-green-background-color {background-color: $green!important;}
+.has-blue-background-color {background-color: $blue!important; color: #fff;}
+.has-pink-background-color {background-color: $pink!important;}
 
 .has-white-color {color: #fff!important;}
 .has-green-color {color: $green!important;}
