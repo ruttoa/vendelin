@@ -301,12 +301,12 @@ remove_filter('the_excerpt', 'wpautop'); // Remove <p> tags from Excerpt altoget
 
 
 // Remove Query Strings for faster page loading with cache plugins (better Pingdom score)
-function _remove_script_version( $src ){
-    $parts = explode( '?ver', $src );
-    return $parts[0];
-}
-add_filter( 'script_loader_src', '_remove_script_version', 15, 1 );
-add_filter( 'style_loader_src', '_remove_script_version', 15, 1 );
+// function _remove_script_version( $src ){
+//     $parts = explode( '?ver', $src );
+//     return $parts[0];
+// }
+// add_filter( 'script_loader_src', '_remove_script_version', 15, 1 );
+// add_filter( 'style_loader_src', '_remove_script_version', 15, 1 );
 
 
 // Add Featured Image column to admin panel post list
