@@ -3,7 +3,7 @@
 /* Load Gulp and plugins */
 const { series, parallel, watch, src, dest } = require("gulp"),
 	concat = require("gulp-concat"),
-	sass = require("gulp-sass"),
+	sass = require("gulp-sass")(require('sass')),
 	sourcemaps = require("gulp-sourcemaps"),
 	autoprefixer = require("gulp-autoprefixer"),
 	uglify = require("gulp-uglify"),
