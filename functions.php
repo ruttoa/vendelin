@@ -75,6 +75,8 @@ function theme_setup() {
 			'color' => '#FFD9DA',
 		),
 	));
+
+    add_theme_support( 'title-tag' );
 }
 endif; // if theme_setup
 add_action( 'after_setup_theme', 'theme_setup' );
