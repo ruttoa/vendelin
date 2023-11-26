@@ -21,10 +21,11 @@ var mySwiper = new Swiper(target, {
     },
 
     // If we need pagination
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
+    // pagination: {
+    //     el: '.swiper-pagination',
+    //     clickable: true,
+    // },
+    pagination: false,
     breakpoints: {
         540: {
             slidesPerView: 2,
